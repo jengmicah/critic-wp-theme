@@ -3,11 +3,7 @@ Theme Name: Critic
 Author: Critic
 Text Domain: critic
 */
-/*===== Variables =====*/
-/* Theme Colors */
-/* Social Media Brand Colors */
-/*===== Mixins =====*/
-/***** Silent Classes *****/
+
 h1, .post-title {
   font-size: 2.3125em;
   /* 37px / 16px */

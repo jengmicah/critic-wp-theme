@@ -4,15 +4,10 @@ Author: Critic
 Text Domain: critic
 */
 
-/*===== Variables =====*/
-
 /* Theme Colors */
 // $primary-color: #263544;
 // $lighter-primary-color: #425D77;
 
-/* Social Media Brand Colors */
-/*===== Mixins =====*/
-/***** Silent Classes *****/
 h1, .post-title {
   font-size: 2.3125em;
   /* 37px / 16px */
