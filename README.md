@@ -1,1 +1,1 @@
-"# critic-wp-theme" 
+#critic-wp-theme
