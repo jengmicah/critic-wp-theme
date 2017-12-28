@@ -1695,3 +1695,62 @@ a img {
 }
 
 
+
+.site-title a:hover {
+  color:#ccc;
+}
+.post-title {
+  font-size:2.75em;
+  line-height:0.9;
+}
+.widget > * {
+  font-size:0.9em;
+}
+.sidebar-primary .widget_categories span {
+  float: right;
+  font-weight: 600;
+  padding: 0px 9px;
+  color:#fff;
+  background-color: #7D7D7D;
+  border-radius: 10px;
+}
+.menu-item-has-children a {
+  cursor:pointer;
+}
+span.post-meta {
+  font-size:0.85em;
+}
+.further-reading span,
+.further-reading a {
+  font-size:1em;
+  display: inline;
+  text-decoration: none;
+}
+.post-tags a {
+  background-color: #425D77;
+}
+.social-media-icons ul li a i {
+  border-radius:60px;
+}
+.widget_recent_comments ul a, .site-title a:hover, .site-title a:active, 
+.site-title a:focus, a.more-link, .nav-links a { 
+  text-decoration: none; 
+}
+a.more-link {
+  transition:0.25s;
+  color:#2A2A2A;
+  padding:10px 20px;
+  border: 1px solid #2A2A2A;
+}
+a.more-link:hover {
+  transition:0.15s;
+  color:#fff;
+  background:#2A2A2A;
+}
+input[type="submit"] {
+  background-color: #425D77;
+}
+span.page-numbers.current {
+  color:#000;
+  font-weight:600;
+}
