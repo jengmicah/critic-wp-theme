@@ -65,7 +65,7 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   line-height: 1.5;
   background: #263544;
   color: #2A2A2A;
@@ -131,7 +131,7 @@ a:hover, a:active, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -259,7 +259,7 @@ textarea {
   outline: solid 1px #D9D9D9;
   border: none;
   border-radius: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   -webkit-appearance: none;
 }
 input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="file"]):not([type="image"]):focus,
@@ -282,7 +282,7 @@ input[type="submit"] {
   border: none;
   border-radius: 0;
   max-width: 13.875em;
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   -webkit-appearance: none;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
@@ -470,7 +470,7 @@ a img {
 }
 
 .site-title {
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   line-height: 36px;
 }
 .site-title a {
@@ -1381,7 +1381,7 @@ a img {
   padding: 1.5em 0;
 }
 .widget .widget-title {
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 0.75em;
@@ -1690,7 +1690,7 @@ a img {
 .gallery-caption {
   color: #5c6066;
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "Rokkitt", sans-serif;
   font-size: 12px;
   padding: 0.5em 0;
 }
@@ -1728,6 +1728,12 @@ a img {
   color:#fff;
   background-color: #7D7D7D;
   border-radius: 10px;
+}
+.sidebar-primary .widget {
+  padding:15px 0;
+}
+.post-tags, .widget_tag_cloud {
+  margin:0;
 }
 .menu-item-has-children a {
   cursor:pointer;
@@ -1768,4 +1774,34 @@ input[type="submit"] {
 span.page-numbers.current {
   color:#000;
   font-weight:600;
+}
+@media all and (min-width: 43.75em) {
+  .site-avatar {
+    border-radius:0;
+  }
+}
+.sidebar-primary .widget {
+  border-top: 0;
+}
+.menu-primary-items, .menu-unset > ul {
+  border-top:0;
+  padding:0;
+}
+.title-container {
+  padding:0;
+}
+.toggle-dropdown {
+  border-radius:50%;
+}
+.toggle-dropdown:after {
+  content:'\f0d7';
+  opacity:0.8;
+}
+.social-media-icons ul {
+  margin-bottom:1em;
+  padding-left:5px;
+}
+.social-media-icons ul i {
+  font-size:25px;
+  padding:0;
 }

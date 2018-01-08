@@ -23,6 +23,8 @@
 								     style="background-image: url('<?php echo esc_url( ct_critic_output_avatar() ); ?>')"
 								     title="<?php echo esc_html( get_bloginfo( 'title' ) ) . ' ' . __( 'avatar', 'critic' ); ?>"></div>
 							<?php } ?>
+													<?php ct_critic_social_icons_output(); ?>
+
 							<div class="container">
 								<?php get_template_part( 'logo' ) ?>
 								<?php
@@ -35,7 +37,6 @@
 							<span class="screen-reader-text"><?php _e( 'open primary menu', 'critic' ); ?></span>
 							<i class="fa fa-bars"></i>
 						</button>
-						<?php ct_critic_social_icons_output(); ?>
 						<?php get_template_part( 'menu', 'primary' ); ?>
 					</header>
 					<?php do_action( 'after_header' ); ?>
